@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth"
+    app:startDestination="@id/startFragement">
+
+
+    <fragment
+        android:id="@+id/startFragement"
+        android:name="com.example.wavesoffood.StartFragement"
+        android:label="fragment_start_fragement"
+        tools:layout="@layout/fragment_start_fragement">
+
+        <action
+            android:id="@+id/action_startFragement_to_locationFragemnt"
+            app:destination="@id/locationFragemnt"
+            app:popUpTo="@id/startFragement"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.wavesoffood.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:popUpTo="@id/startFragement"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.wavesoffood.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up">
+
+
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragemnt"
+        android:name="com.example.wavesoffood.locationFragemnt"
+        android:label="fragment_location_fragemnt"
+        tools:layout="@layout/fragment_location_fragemnt">
+        <action
+            android:id="@+id/action_locationFragemnt_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/locationFragemnt"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

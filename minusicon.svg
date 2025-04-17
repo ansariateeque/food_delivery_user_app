@@ -1,0 +1,13 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon Minus">
+<rect id="Rectangle" opacity="0.1" width="26" height="26" rx="8" fill="#FF0000"/>
+<rect id="Rectangle Copy" width="26" height="26" rx="8" fill="url(#paint0_linear_388_156)"/>
+<path id="Path" d="M8.125 12.4583H18.125V13.8868H8.125V12.4583Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_388_156" x1="13" y1="0" x2="13" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#53E88B"/>
+<stop offset="1" stop-color="#15BE77"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WavesOfFood</string>
+    <string name="nexttxt">Next</string>
+    <string name="enjoytxt">Enjoy Restaurant Quality Meals \nat Home</string>
+    <string name="location">Choose Your Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_your_favorite_food">Explore Your Favorite Food</string>
+
+    <string name="facebook_app_id">1318577369395100</string>
+    <string name="fb_login_protocol_scheme">fb1318577369395100</string>
+    <string name="facebook_client_token">655c872e654cea47e07d0d480814d85e</string>
+
+    <string-array name="search_options">
+        <item>filter</item>
+        <item>Food Name</item>
+        <item>Hotel Name</item>
+    </string-array>
+
+</resources>
+
